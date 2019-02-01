@@ -36,7 +36,13 @@ export default class Announcements extends React.Component {
     const { announcements } = this.state;
 
     return (
-      <div className="announcements">
+      <div
+        className="announcements"
+        style={{
+          height: "fit-content",
+          maxHeight: "300px"
+        }}
+      >
         <h2>
           <b>Announcements</b>
         </h2>

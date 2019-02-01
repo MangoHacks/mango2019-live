@@ -16,23 +16,11 @@ export default class Meals extends React.Component {
               <ul className="times">
                 <li>
                   <span className="time global-accent-color">5:00pm</span>
-                  Check-In
-                </li>
-                <li>
-                  <span className="time global-accent-color">6:00pm</span>{" "}
                   Dinner
                 </li>
                 <li>
-                  <span className="time global-accent-color">7:00pm</span>{" "}
-                  Opening Ceremony
-                </li>
-                <li>
-                  <span className="time global-accent-color">9:00pm</span>{" "}
-                  Hacking Begins
-                </li>
-                <li>
-                  <span className="time global-accent-color">10:00pm</span> Team
-                  Building
+                  <span className="time global-accent-color">12:00am</span>{" "}
+                  Midnight Snack
                 </li>
               </ul>
             </div>
@@ -42,16 +30,11 @@ export default class Meals extends React.Component {
               </h3>
               <ul className="times">
                 <li>
-                  <span className="time global-accent-color">12:00am</span>{" "}
-                  Midnight Snack
-                </li>
-                <li>
-                  <span className="time global-accent-color">7:30am</span>{" "}
+                  <span className="time global-accent-color">8:00am</span>{" "}
                   Breakfast
                 </li>
                 <li>
-                  <span className="time global-accent-color">12:30pm</span>{" "}
-                  Lunch
+                  <span className="time global-accent-color">1:00pm</span> Lunch
                 </li>
                 <li>
                   <span className="time global-accent-color">7:00pm</span>{" "}

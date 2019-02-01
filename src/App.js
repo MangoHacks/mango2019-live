@@ -8,14 +8,26 @@ import Challenges from "./Components/Challenges";
 import Announcements from "./Components/Announcements";
 import Workshops from "./Components/Workshops";
 
-import { BlobTop, DashBlobCircle } from "./Components/Shared/Blobs";
+import { ResBlobTop, ResBlobBottom } from "./Components/Shared/Blobs";
 
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <BlobTop
-          style={{ position: "absolute", zIndex: "-1" }}
+        <ResBlobTop
+          style={{ position: "fixed", zIndex: "-1" }}
+          topColor="#FF2D2D"
+          bottomColor="#FFA52D"
+        />
+        <ResBlobTop
+          style={{
+            position: "fixed",
+            bottom: 0,
+            right: 0,
+            zIndex: "-1",
+            trasnform: "rotate(90degs)",
+            transform: "scale(-1, -1)"
+          }}
           topColor="#FF2D2D"
           bottomColor="#FFA52D"
         />
