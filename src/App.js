@@ -58,6 +58,7 @@ class App extends React.Component {
           <hr />
           <Workshops />
           <hr />
+          <Maps />
         </div>
       </React.Fragment>
     );

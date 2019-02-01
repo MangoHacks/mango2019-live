@@ -28,7 +28,7 @@ const schedule = [
   },
   {
     activity: "Hacking Begins!",
-    time: "8:30pm",
+    time: "9:00pm",
     description: "Hack away at PG6."
   },
   {
@@ -49,7 +49,7 @@ const schedule = [
   },
   {
     activity: "Midnight snack ",
-    time: "12:00pm - 12:30pm",
+    time: "12:00am - 12:30am",
     description: "PG6 Lobby. Get a tasty treat."
   },
   {

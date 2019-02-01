@@ -5,8 +5,14 @@ export default class Maps extends React.Component {
     return (
       <div className="maps">
         <h2>
-          <b>Maps</b>
+          <strong>Maps</strong>
         </h2>
+        <div>
+          <img style={{maxWidth: "100%"}} src={require("../images/PG6.jpg")} />
+          <img style={{ maxWidth: "100%" }} src={require("../images/GC.jpg")} />
+          <img style={{ maxWidth: "100%" }} src={require("../images/Advising.jpg")} />
+        </div>
+        <br />
       </div>
     );
   }
