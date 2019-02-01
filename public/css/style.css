@@ -61,6 +61,7 @@ hr {
   border-radius: 20px;
 }
 
+.announcements-list,
 .schedule-list {
   list-style: none;
   margin: 0;
@@ -72,6 +73,10 @@ hr {
   border-radius: 6px;
   background: #fafafa;
   box-shadow: 0 0px 32px -15px #fff inset;
+}
+
+.announcements-list {
+  padding: 12px;
 }
 
 .schedule-list li {

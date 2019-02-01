@@ -46,7 +46,7 @@ export default class Announcements extends React.Component {
         <h2>
           <b>Announcements</b>
         </h2>
-        <ul className="schedule-list" style={{ padding: 0 }}>
+        <ul className="announcements-list">
           {announcements.length > 0 ? (
             announcements.map(announcement => (
               <li>
