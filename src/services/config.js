@@ -1,3 +1,3 @@
-const config = { API_URL: "https://mangohype.localtunnel.me" };
+const config = { API_URL: "https://api.mangohacks.com" };
 
 export default config;
