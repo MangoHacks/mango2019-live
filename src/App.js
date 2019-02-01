@@ -36,10 +36,10 @@ class App extends React.Component {
             <Header />
             <div className="header-info">
               <h5>
-                <b>WIFI:</b> FIUMangoHacks
+                WIFI: <strong>FIUMangoHacks</strong>
               </h5>
               <h5>
-                <b>WIFI Password:</b> fiumangohax
+                WIFI Password: <strong>fiumangohax</strong>
               </h5>
             </div>
           </div>
