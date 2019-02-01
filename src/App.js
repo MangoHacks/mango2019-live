@@ -1,26 +1,48 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-class App extends Component {
+import Maps from "./Components/Maps";
+import Meals from "./Components/Meals";
+import Header from "./Components/Header";
+import Schedule from "./Components/Schedule";
+import Challenges from "./Components/Challenges";
+import Announcements from "./Components/Announcements";
+import Workshops from "./Components/Workshops";
+
+import { BlobTop, DashBlobCircle } from "./Components/Shared/Blobs";
+
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <React.Fragment>
+        <BlobTop
+          style={{ position: "absolute", zIndex: "-1" }}
+          topColor="#FF2D2D"
+          bottomColor="#FFA52D"
+        />
+        <div className="container">
+          <div className="header">
+            <Header />
+            <div className="header-info">
+              <h5>
+                <b>WIFI:</b> FIU_WIFI
+              </h5>
+
+              <h5>
+                <b>Workshop rooms:</b> 105 / 144
+              </h5>
+            </div>
+          </div>
+
+          <div className="schedule-announcements">
+            <Schedule />
+            <Announcements />
+          </div>
+          <Meals />
+          <Challenges />
+          <Workshops />
+          <Maps />
+        </div>
+      </React.Fragment>
     );
   }
 }
