@@ -3,6 +3,7 @@ import openSocket from "socket.io-client";
 
 import config from "../services/config";
 import announcements from "../services/announcements";
+import Radio from "../Components/Radio";
 
 const socket = openSocket(config.API_URL);
 
@@ -43,6 +44,8 @@ export default class Announcements extends React.Component {
           maxHeight: "300px"
         }}
       >
+        <Radio />
+        <br />
         <h2>
           <b>Announcements</b>
         </h2>
