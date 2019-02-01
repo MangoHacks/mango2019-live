@@ -36,10 +36,13 @@ class App extends React.Component {
             <Schedule />
             <Announcements />
           </div>
+          <hr />
           <Meals />
+          <hr />
           <Challenges />
+          <hr />
           <Workshops />
-          {/* <Maps /> */}
+          <hr />
         </div>
       </React.Fragment>
     );
