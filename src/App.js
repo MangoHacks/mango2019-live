@@ -24,11 +24,10 @@ class App extends React.Component {
             <Header />
             <div className="header-info">
               <h5>
-                <b>WIFI:</b> FIU_WIFI
+                <b>WIFI:</b> FIUMangoHacks
               </h5>
-
               <h5>
-                <b>Workshop rooms:</b> 105 / 144
+                <b>WIFI Password:</b> fiumangohax
               </h5>
             </div>
           </div>
@@ -40,7 +39,7 @@ class App extends React.Component {
           <Meals />
           <Challenges />
           <Workshops />
-          <Maps />
+          {/* <Maps /> */}
         </div>
       </React.Fragment>
     );

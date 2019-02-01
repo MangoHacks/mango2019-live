@@ -43,7 +43,7 @@ const schedule = [
   },
   {
     activity: "Intro to 8base platform",
-    time: "10:30pm - 12:00pm",
+    time: "10:30pm - 12:00am",
     description:
       "Merit Lab 144. Learn about the 8base platform and their challenge for a chance at an awesome prize!"
   },
@@ -79,7 +79,7 @@ const schedule = [
     description: "PG6 105. Learn the basics of Javascript."
   },
   {
-    activity: "Intro to React",
+    activity: "Getting started with react and styled components",
     time: "11:30am - 12:30pm",
     description: "Merit Lab 144. Learn the basics of React, taught by GE."
   },
