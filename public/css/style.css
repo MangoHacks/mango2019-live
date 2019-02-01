@@ -178,6 +178,13 @@ hr {
   .container {
     width: 920px;
   }
+
+  .schedule-header {
+    font-size: 15px;
+  }
+  .schedule-header span {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 490px) {
