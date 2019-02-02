@@ -66,7 +66,7 @@ const schedule = [
   {
     activity: "Breakfast",
     time: "8:00am - 9:00am",
-    description: "PG6 Halfmoon. Panera sandwiches."
+    description: "PG6. Panera sandwiches."
   },
   {
     activity: "Intro to GraphQL",
@@ -76,7 +76,7 @@ const schedule = [
   {
     activity: "Javascript: The sweet parts",
     time: "10:15am - 11:15am",
-    description: "PG6 105. Learn the basics of Javascript."
+    description: "PG6 144. Learn the basics of Javascript."
   },
   {
     activity: "Getting started with react and styled components",
@@ -91,7 +91,7 @@ const schedule = [
   {
     activity: "What now?",
     time: "3:00pm - 4:00pm",
-    description: "PG6 105. A guide to exploring the world in tech."
+    description: "PG6 144. A guide to exploring the world in tech."
   },
   // {
   //   activity: "Salsa dancing",
@@ -113,7 +113,7 @@ const schedule = [
   {
     activity: "Dinner",
     time: "7:00pm - 8:30pm",
-    description: "PG6 Halfmoon."
+    description: "PG6."
   },
   {
     activity: "Cupstacking",
