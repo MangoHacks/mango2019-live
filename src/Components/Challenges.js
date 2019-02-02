@@ -28,6 +28,7 @@ const challenges = [
   {
     category: "Best Social Good Hack.",
     company: "WICS FIU",
+    challenge: "Best hack that helps the world become a better plaee. 50% of the team must identify as female"
   },
   {
     category: "Best use of Snap Kit.",
