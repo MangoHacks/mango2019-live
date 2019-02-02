@@ -85,20 +85,20 @@ const schedule = [
   },
   {
     activity: "Lunch",
-    time: "1:00pm - 2:00pm",
-    description: "PG6 Halfmoon. Publix subs."
+    time: "2:00pm - 3:00pm",
+    description: "PG6. Publix subs."
   },
   {
     activity: "What now?",
-    time: "2:00pm - 3:00pm",
+    time: "3:00pm - 4:00pm",
     description: "PG6 105. A guide to exploring the world in tech."
   },
-  {
-    activity: "Salsa dancing",
-    time: "3:00pm - 4:00pm",
-    description:
-      "PG6 Lobby. Learn more than just a 2 step in this fun dancing activity."
-  },
+  // {
+  //   activity: "Salsa dancing",
+  //   time: "3:00pm - 4:00pm",
+  //   description:
+  //     "PG6 Lobby. Learn more than just a 2 step in this fun dancing activity."
+  // },
   {
     activity: "Googler Spotlights: Data Science and Software Engineering",
     time: "4:00pm - 5:00pm",
