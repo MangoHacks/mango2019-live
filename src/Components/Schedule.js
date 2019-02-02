@@ -108,7 +108,7 @@ const schedule = [
   {
     activity: "Demystifying AI/ML",
     time: "5:30pm - 6:30pm",
-    description: "PG6 105."
+    description: "PG6 144."
   },
   {
     activity: "Dinner",
