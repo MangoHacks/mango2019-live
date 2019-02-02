@@ -26,6 +26,10 @@ const challenges = [
     challenge: "Using 8base platform, what awesome hack can you create?"
   },
   {
+    category: "Best Social Good Hack.",
+    company: "WICS FIU",
+  },
+  {
     category: "Best use of Snap Kit.",
     company: "MLH"
   },
