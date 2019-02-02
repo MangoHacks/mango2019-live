@@ -7,7 +7,7 @@ import Schedule from "./Components/Schedule";
 import Challenges from "./Components/Challenges";
 import Announcements from "./Components/Announcements";
 import Workshops from "./Components/Workshops";
-import Radio from "./Components/Radio"
+import Radio from "./Components/Radio";
 
 import { ResBlobTop, ResBlobBottom } from "./Components/Shared/Blobs";
 
@@ -45,11 +45,9 @@ class App extends React.Component {
             </div>
           </div>
 
-
           <div className="schedule-announcements">
             <Schedule />
             <Announcements />
-            
           </div>
           <hr />
           <Meals />

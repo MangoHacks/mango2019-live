@@ -75,7 +75,12 @@ hr {
   box-shadow: 0 0px 32px -15px #fff inset;
 }
 
+.schedule-list {
+  flex: 2 1 66%;
+}
+
 .announcements-list {
+  flex: 1 1 33%;
   padding: 12px;
 }
 

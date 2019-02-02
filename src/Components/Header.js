@@ -6,7 +6,7 @@ export default class Header extends React.Component {
   componentDidMount = () => this.countdown();
 
   countdown = () => {
-    let countDownDate = new Date("Feb 1, 2019 21:00:00").getTime();
+    let countDownDate = new Date("Feb 3, 2019 9:00:00").getTime();
 
     return setInterval(() => {
       let now = new Date().getTime();
@@ -38,7 +38,7 @@ export default class Header extends React.Component {
     const { timer } = this.state;
     return (
       <React.Fragment>
-        <h2>Hacking Starts in</h2>
+        <h2>Hacking Ends in</h2>
         <h1 className="timer">{timer}</h1>
         <div className="header-btn-container">
           <a href="https://go.fiu.edu/mangohacks-slack" target="_blank">
