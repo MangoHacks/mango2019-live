@@ -2,7 +2,7 @@ import React from "react";
 
 const challenges = [
   {
-    category: "Solution for patience, caregivers, physicians.",
+    category: "Solution for patients, caregivers, physicians.",
     company: "Express Scripts",
     challenge:
       "Express Scripts is looking for innovative healthcare solutions that are powered by technology. Design a solution that redefines and simplifies the healthcare experience for patients, caregivers and physicians enabling them to do more of what they love."
