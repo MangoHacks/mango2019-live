@@ -133,7 +133,7 @@ const schedule = [
   },
   {
     activity: "Werewolf",
-    time: "1:00am - 1:30pm",
+    time: "1:00am - 1:30am",
     description: "PG6 105."
   },
   {
