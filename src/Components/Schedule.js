@@ -70,12 +70,12 @@ const schedule = [
   },
   {
     activity: "Intro to GraphQL",
-    time: "9:00am - 10:00am",
+    time: "9:15am - 10:15am",
     description: "Merit Lab 144. Learn the basics of GraphQL, taught by 8base."
   },
   {
     activity: "Javascript: The sweet parts",
-    time: "10:00am - 11:00am",
+    time: "10:15am - 11:15am",
     description: "PG6 105. Learn the basics of Javascript."
   },
   {
@@ -158,7 +158,7 @@ const schedule = [
       "You did it! Get ready for to demo your hack to plenty of judges and hackers!"
   },
   {
-    activity: "Judgin Expo",
+    activity: "Judging Expo",
     time: "10:00am - 12:00pm",
     description:
       "PG6 116 / PG6 112. Demo your hack to our sweet panel of judges and other hackers!"
