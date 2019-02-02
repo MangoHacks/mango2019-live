@@ -54,13 +54,13 @@ const schedule = [
   },
   {
     activity: "Git good at team collaboration with Github",
-    time: "12:30pm - 1:15pm",
+    time: "12:30am - 1:15am",
     description:
       "PG6 105. Crash course in using Git & Github as a team collaboration tool."
   },
   {
     activity: "Intro to CSS + HTML",
-    time: "1:30pm - 2:15pm",
+    time: "1:30am - 2:15am",
     description: "PG6 105. Learn the foundation to make a website."
   },
   {
