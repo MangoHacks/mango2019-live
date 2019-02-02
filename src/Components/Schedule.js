@@ -66,17 +66,17 @@ const schedule = [
   {
     activity: "Breakfast",
     time: "8:00am - 9:00am",
-    description: "PG6 Halfmoon. Panera sandwiches."
+    description: "PG6. Panera sandwiches."
   },
   {
     activity: "Intro to GraphQL",
-    time: "9:00am - 10:00am",
+    time: "9:15am - 10:15am",
     description: "Merit Lab 144. Learn the basics of GraphQL, taught by 8base."
   },
   {
     activity: "Javascript: The sweet parts",
-    time: "10:00am - 11:00am",
-    description: "PG6 105. Learn the basics of Javascript."
+    time: "10:15am - 11:15am",
+    description: "PG6 144. Learn the basics of Javascript."
   },
   {
     activity: "Getting started with react and styled components",
@@ -85,20 +85,20 @@ const schedule = [
   },
   {
     activity: "Lunch",
-    time: "1:00pm - 2:00pm",
-    description: "PG6 Halfmoon. Publix subs."
+    time: "2:00pm - 3:00pm",
+    description: "PG6. Publix subs."
   },
   {
     activity: "What now?",
-    time: "2:00pm - 3:00pm",
-    description: "PG6 105. A guide to exploring the world in tech."
-  },
-  {
-    activity: "Salsa dancing",
     time: "3:00pm - 4:00pm",
-    description:
-      "PG6 Lobby. Learn more than just a 2 step in this fun dancing activity."
+    description: "PG6 144. A guide to exploring the world in tech."
   },
+  // {
+  //   activity: "Salsa dancing",
+  //   time: "3:00pm - 4:00pm",
+  //   description:
+  //     "PG6 Lobby. Learn more than just a 2 step in this fun dancing activity."
+  // },
   {
     activity: "Googler Spotlights: Data Science and Software Engineering",
     time: "4:00pm - 5:00pm",
@@ -108,12 +108,12 @@ const schedule = [
   {
     activity: "Demystifying AI/ML",
     time: "5:30pm - 6:30pm",
-    description: "PG6 105."
+    description: "PG6 144."
   },
   {
     activity: "Dinner",
     time: "7:00pm - 8:30pm",
-    description: "PG6 Halfmoon."
+    description: "PG6."
   },
   {
     activity: "Cupstacking",
@@ -158,7 +158,7 @@ const schedule = [
       "You did it! Get ready for to demo your hack to plenty of judges and hackers!"
   },
   {
-    activity: "Judgin Expo",
+    activity: "Judging Expo",
     time: "10:00am - 12:00pm",
     description:
       "PG6 116 / PG6 112. Demo your hack to our sweet panel of judges and other hackers!"
