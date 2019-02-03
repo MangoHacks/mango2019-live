@@ -42,6 +42,14 @@ class App extends React.Component {
               <h5>
                 WIFI Password: <strong>fiumangohax</strong>
               </h5>
+              <a
+                href="https://photos.app.goo.gl/cVJUG6w8jMJGULAb6"
+                target="_blank"
+              >
+                <h5 style={{ color: "#FF363F" }}>
+                  <b>Photos</b>
+                </h5>
+              </a>
             </div>
           </div>
 

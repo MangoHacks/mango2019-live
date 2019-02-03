@@ -22,6 +22,10 @@ hr {
   padding: 50px 0 0 0;
 }
 
+.header-info a:hover {
+  text-decoration: none;
+}
+
 .header h2 {
   font-weight: 700;
 }
@@ -261,10 +265,14 @@ hr {
   }
 }
 .Blink {
-  animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  animation: blinker 1.5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
   padding-bottom: 10px;
 }
-@keyframes blinker {  
-  from { opacity: 1; }
-  to { opacity: 0; }
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
