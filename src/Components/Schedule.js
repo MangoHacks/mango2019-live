@@ -116,15 +116,15 @@ const schedule = [
     description: "PG6."
   },
   {
+    activity: "Ladies Storm Hackathon",
+    time: "8:00pm - 9:00pm",
+    description: "PG6 Lobby. An activity by Women in Computer Science (WICS)"
+  },
+  {
     activity: "Cupstacking",
     time: "9:00pm - 10:00pm",
     description:
       "PG6 Lobby. Can you build the highest cup tower? An activity hosted by MLH."
-  },
-  {
-    activity: "Ladies Storm Hackathon",
-    time: "10:00pm - 11:00pm",
-    description: "PG6 Lobby. An activity by Women in Computer Science (WICS)"
   },
   {
     activity: "Midnight Snack",
