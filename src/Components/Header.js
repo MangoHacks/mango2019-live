@@ -44,7 +44,7 @@ export default class Header extends React.Component {
           <a href="https://go.fiu.edu/mangohacks-slack" target="_blank">
             <button className="btn header-btn">Slack invite</button>
           </a>
-          <a href="https://devpost.com" target="_blank">
+          <a href="https://mangohacks.devpost.com" target="_blank">
             <button className="btn header-btn">Devpost</button>
           </a>
           <a href="https://www.facebook.com/mangohacks" target="_blank">
