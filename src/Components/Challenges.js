@@ -9,7 +9,7 @@ const challenges = [
   },
   {
     category:
-      "Resource for residents of multilingual/mulitcultural city like miami.",
+      "Resource for residents of multilingual/multicultural city like Miami.",
     company: "Google",
     challenge:
       "Create a resource that would benefit residents of a multilingual and multicultural city like Miami. Bonus points will be awarded for creative use of one or more of the Google Cloud APIs (Text-to-Speech, Computer Vision, Translate, etc.)."
@@ -28,7 +28,8 @@ const challenges = [
   {
     category: "Best Social Good Hack.",
     company: "WICS FIU",
-    challenge: "Best hack that helps the world become a better plaee. 50% of the team must identify as female"
+    challenge:
+      "Best hack that helps the world become a better plaee. 50% of the team must identify as female"
   },
   {
     category: "Best use of Snap Kit.",
