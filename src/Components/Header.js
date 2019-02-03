@@ -38,8 +38,8 @@ export default class Header extends React.Component {
     const { timer } = this.state;
     return (
       <React.Fragment>
-        <h2>Hacking Ends in</h2>
-        <h1 className="timer">{timer}</h1>
+        <h2>Hacking has Ended!</h2>
+        <h1 className="timer">00:00:00</h1>
         <div className="header-btn-container">
           <a href="https://go.fiu.edu/mangohacks-slack" target="_blank">
             <button className="btn header-btn">Slack invite</button>
