@@ -50,8 +50,8 @@ export default class Header extends React.Component {
           <a href="https://www.facebook.com/mangohacks" target="_blank">
             <button className="btn header-btn">Facebook Group</button>
           </a>
-          <a href="https://hardware.mlh.io/" target="_blank">
-            <button className="btn header-btn">MLH Hardware</button>
+          <a href="https://expo.mangohacks.com" target="_blank">
+            <button className="btn header-btn">Expo</button>
           </a>
         </div>
       </React.Fragment>
